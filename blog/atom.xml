@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-site.example.com/blog</id>
-    <title>My Site Blog</title>
+    <title>Koala's Home Blog</title>
     <updated>2025-04-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>Koala's Home Blog</subtitle>
     <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[如何使用github免费搭建自己的博客网站]]></title>
@@ -57,110 +57,15 @@ GitHub 远程分支默认分支名可能是 main，但远程没有 master 分支
 <p>2.Error: failed to push some refs to xxx</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"> #完全覆盖远程main分支（远程仓库中的所有文件都会被覆盖掉）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> git push -u origin main --force</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="7首次推送完成后再次推送的操作如下">7.首次推送完成后，再次推送的操作如下：<a href="https://your-docusaurus-site.example.com/blog/2025/04/02/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8github%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99#7%E9%A6%96%E6%AC%A1%E6%8E%A8%E9%80%81%E5%AE%8C%E6%88%90%E5%90%8E%E5%86%8D%E6%AC%A1%E6%8E%A8%E9%80%81%E7%9A%84%E6%93%8D%E4%BD%9C%E5%A6%82%E4%B8%8B" class="hash-link" aria-label="Direct link to 7.首次推送完成后，再次推送的操作如下：" title="Direct link to 7.首次推送完成后，再次推送的操作如下：">​</a></h2>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">#重新生成静态网站</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm run build重新生成静态网站</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#将build下的所有文件提交至暂存区</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git add .</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#备注第几次提交</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git commit -m 'second commit'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#提交到github上</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git push -u origin main</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">#重新生成静态网站</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm run build</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#将build下的所有文件提交至暂存区</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git add .</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#备注第几次提交</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git commit -m 'second commit'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#提交到github上</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git push -u origin main</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="8注意">8.注意<a href="https://your-docusaurus-site.example.com/blog/2025/04/02/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8github%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99#8%E6%B3%A8%E6%84%8F" class="hash-link" aria-label="Direct link to 8.注意" title="Direct link to 8.注意">​</a></h2>
 <p>在这里，作者建议 上传暂存区 的文件，单独存放在一个文件夹内。例如：
 <img decoding="async" loading="lazy" alt="d36d0ad5-292c-485c-a3dd-90ce61b173fa" src="data:image/png;base64,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" width="558" height="90" class="img_ev3q"></p>
 <p>'My-Blog' 是本地部署的项目文件</p>
 <p>'francis-my.github.io-main' 是存放静态网站的内容文件（该目录下的文件来源于My-Blog/build。每次生成新的静态网站时，都需要覆盖该文件夹）</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/welcome</id>
-        <link href="https://your-docusaurus-site.example.com/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
-<ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
-</ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://your-docusaurus-site.example.com/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+            <name>Koala</name>
         </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Facebook" term="Facebook"/>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/mdx-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<button>Click me!</button>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/long-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/first-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Hola" term="Hola"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="Practice" term="Practice"/>
     </entry>
 </feed>
